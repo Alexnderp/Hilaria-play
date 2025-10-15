@@ -1,0 +1,11 @@
+.logo {
+  width: 10rem;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  filter: drop-shadow(0 0 3px rgba(255, 120, 0, 0.4)) drop-shadow(0 0 6px rgba(255, 100, 0, 0.2));
+  transition: filter 0.3s ease-in-out;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 1px #FF6600) drop-shadow(0 0 1px #FF6600) drop-shadow(0 0 2px rgba(255, 102, 0, 0.8)) drop-shadow(0 0 3px rgba(255, 102, 0, 0.5));
+}/*# sourceMappingURL=logo.css.map */

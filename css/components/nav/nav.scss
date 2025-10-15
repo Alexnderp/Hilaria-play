@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  border-bottom: 1px solid #767676;
+}
+
+.menu {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    background-color: #FF6600;
+    border-radius: 15px;
+    width: 4rem;
+    height: 1.6rem;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+  }
+}
